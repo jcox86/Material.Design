@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F65D2CF5-E8A7-4CE6-A06C-34E4ED427932}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Material.Design</RootNamespace>
+    <AssemblyName>Material.Design</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="bower_components\angular-animate\angular-animate.js" />
+    <Content Include="bower_components\angular-animate\angular-animate.min.js" />
+    <Content Include="bower_components\angular-aria\angular-aria.js" />
+    <Content Include="bower_components\angular-aria\angular-aria.min.js" />
+    <Content Include="bower_components\angular-base64\angular-base64.js" />
+    <Content Include="bower_components\angular-base64\angular-base64.min.js" />
+    <Content Include="bower_components\angular-local-storage\demo\demo-app.js" />
+    <Content Include="bower_components\angular-local-storage\demo\demo-style.css" />
+    <Content Include="bower_components\angular-local-storage\demo\demo.html" />
+    <Content Include="bower_components\angular-local-storage\dist\angular-local-storage.js" />
+    <Content Include="bower_components\angular-local-storage\dist\angular-local-storage.min.js" />
+    <Content Include="bower_components\angular-material\angular-material.css" />
+    <Content Include="bower_components\angular-material\angular-material.js" />
+    <Content Include="bower_components\angular-material\angular-material.min.css" />
+    <Content Include="bower_components\angular-material\angular-material.min.js" />
+    <Content Include="bower_components\angular-material\themes\amber-theme.css" />
+    <Content Include="bower_components\angular-material\themes\blue-grey-theme.css" />
+    <Content Include="bower_components\angular-material\themes\blue-theme.css" />
+    <Content Include="bower_components\angular-material\themes\brown-theme.css" />
+    <Content Include="bower_components\angular-material\themes\cyan-theme.css" />
+    <Content Include="bower_components\angular-material\themes\deep-orange-theme.css" />
+    <Content Include="bower_components\angular-material\themes\deep-purple-theme.css" />
+    <Content Include="bower_components\angular-material\themes\default-theme.css" />
+    <Content Include="bower_components\angular-material\themes\green-theme.css" />
+    <Content Include="bower_components\angular-material\themes\grey-theme.css" />
+    <Content Include="bower_components\angular-material\themes\indigo-theme.css" />
+    <Content Include="bower_components\angular-material\themes\light-blue-dark-theme.css" />
+    <Content Include="bower_components\angular-material\themes\light-green-theme.css" />
+    <Content Include="bower_components\angular-material\themes\lime-theme.css" />
+    <Content Include="bower_components\angular-material\themes\orange-theme.css" />
+    <Content Include="bower_components\angular-material\themes\pink-theme.css" />
+    <Content Include="bower_components\angular-material\themes\purple-theme.css" />
+    <Content Include="bower_components\angular-material\themes\red-theme.css" />
+    <Content Include="bower_components\angular-material\themes\teal-theme.css" />
+    <Content Include="bower_components\angular-material\themes\yellow-theme.css" />
+    <Content Include="bower_components\angular-motion\dist\angular-motion.css" />
+    <Content Include="bower_components\angular-motion\dist\angular-motion.min.css" />
+    <Content Include="bower_components\angular-motion\dist\modules\collapse.css" />
+    <Content Include="bower_components\angular-motion\dist\modules\collapse.min.css" />
+    <Content Include="bower_components\angular-motion\dist\modules\fade-and-scale.css" />
+    <Content Include="bower_components\angular-motion\dist\modules\fade-and-scale.min.css" />
+    <Content Include="bower_components\angular-motion\dist\modules\fade-and-slide.css" />
+    <Content Include="bower_components\angular-motion\dist\modules\fade-and-slide.min.css" />
+    <Content Include="bower_components\angular-motion\dist\modules\fade.css" />
+    <Content Include="bower_components\angular-motion\dist\modules\fade.min.css" />
+    <Content Include="bower_components\angular-motion\dist\modules\flip.css" />
+    <Content Include="bower_components\angular-motion\dist\modules\flip.min.css" />
+    <Content Include="bower_components\angular-motion\dist\modules\slide.css" />
+    <Content Include="bower_components\angular-motion\dist\modules\slide.min.css" />
+    <Content Include="bower_components\angular-motion\Gruntfile.js" />
+    <Content Include="bower_components\angular-route\angular-route.js" />
+    <Content Include="bower_components\angular-route\angular-route.min.js" />
+    <Content Include="bower_components\angular-sanitize\angular-sanitize.js" />
+    <Content Include="bower_components\angular-sanitize\angular-sanitize.min.js" />
+    <Content Include="bower_components\angular\angular-csp.css" />
+    <Content Include="bower_components\angular\angular.js" />
+    <Content Include="bower_components\angular\angular.min.js" />
+    <Content Include="bower_components\hammerjs\hammer.js" />
+    <Content Include="bower_components\hammerjs\hammer.min.js" />
+    <Content Include="index.html" />
+    <Content Include="NgApp\About\about.html" />
+    <Content Include="NgApp\About\about.js" />
+    <Content Include="NgApp\app.css" />
+    <Content Include="NgApp\app.html" />
+    <Content Include="NgApp\app.js" />
+    <Content Include="NgApp\Authentication\authentication.js" />
+    <Content Include="NgApp\Authentication\basicAuthenticationSvc.js" />
+    <Content Include="NgApp\Authentication\fakeAuthenticationSvc.js" />
+    <Content Include="NgApp\Authentication\http-auth-interceptor.js" />
+    <Content Include="NgApp\Authentication\login.html" />
+    <Content Include="NgApp\Authentication\loginCtrl.js" />
+    <Content Include="NgApp\Authentication\securedContent.js" />
+    <Content Include="NgApp\Authentication\tokenAuthenticationSvc.js" />
+    <Content Include="NgApp\globals.js" />
+    <Content Include="NgApp\Home\home.html" />
+    <Content Include="NgApp\Home\home.js" />
+    <Content Include="NgApp\Navigation\navbar.html" />
+    <Content Include="NgApp\Navigation\navigation.js" />
+    <Content Include="NgApp\Navigation\routes.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".bin\bower.cmd" />
+    <None Include=".bin\git.cmd" />
+    <None Include=".bin\node.cmd" />
+    <Content Include="packages.config" />
+    <Content Include="bower_components\angular-animate\.bower.json" />
+    <Content Include="bower_components\angular-animate\angular-animate.min.js.map" />
+    <Content Include="bower_components\angular-animate\bower.json" />
+    <Content Include="bower_components\angular-animate\package.json" />
+    <Content Include="bower_components\angular-animate\README.md" />
+    <Content Include="bower_components\angular-aria\.bower.json" />
+    <Content Include="bower_components\angular-aria\angular-aria.min.js.map" />
+    <Content Include="bower_components\angular-aria\bower.json" />
+    <Content Include="bower_components\angular-aria\package.json" />
+    <Content Include="bower_components\angular-aria\README.md" />
+    <Content Include="bower_components\angular-base64\.bower.json" />
+    <Content Include="bower_components\angular-base64\bower.json" />
+    <Content Include="bower_components\angular-base64\LICENSE" />
+    <Content Include="bower_components\angular-base64\README.md" />
+    <Content Include="bower_components\angular-local-storage\.bower.json" />
+    <Content Include="bower_components\angular-local-storage\.bowerrc" />
+    <Content Include="bower_components\angular-local-storage\.gitattributes" />
+    <Content Include="bower_components\angular-local-storage\.gitignore" />
+    <Content Include="bower_components\angular-local-storage\.travis.yml" />
+    <Content Include="bower_components\angular-local-storage\bower.json" />
+    <Content Include="bower_components\angular-local-storage\CHANGELOG.md" />
+    <Content Include="bower_components\angular-local-storage\LICENSE" />
+    <Content Include="bower_components\angular-local-storage\package.json" />
+    <Content Include="bower_components\angular-local-storage\README.md" />
+    <Content Include="bower_components\angular-material\.bower.json" />
+    <Content Include="bower_components\angular-material\bower.json" />
+    <Content Include="bower_components\angular-material\LICENSE" />
+    <Content Include="bower_components\angular-material\README.md" />
+    <Content Include="bower_components\angular-motion\.bower.json" />
+    <Content Include="bower_components\angular-motion\.editorconfig" />
+    <Content Include="bower_components\angular-motion\.gitignore" />
+    <Content Include="bower_components\angular-motion\.jshintrc" />
+    <Content Include="bower_components\angular-motion\.travis.yml" />
+    <Content Include="bower_components\angular-motion\bower.json" />
+    <Content Include="bower_components\angular-motion\LICENSE.md" />
+    <Content Include="bower_components\angular-motion\package.json" />
+    <Content Include="bower_components\angular-motion\README.md" />
+    <Content Include="bower_components\angular-motion\src\collapse\collapse.less" />
+    <Content Include="bower_components\angular-motion\src\fade-and-scale\fade-and-scale.less" />
+    <Content Include="bower_components\angular-motion\src\fade-and-slide\fade-and-slide.less" />
+    <Content Include="bower_components\angular-motion\src\fade\fade.less" />
+    <Content Include="bower_components\angular-motion\src\flip\flip.less" />
+    <Content Include="bower_components\angular-motion\src\slide\slide.less" />
+    <Content Include="bower_components\angular-route\.bower.json" />
+    <Content Include="bower_components\angular-route\angular-route.min.js.map" />
+    <Content Include="bower_components\angular-route\bower.json" />
+    <Content Include="bower_components\angular-route\package.json" />
+    <Content Include="bower_components\angular-route\README.md" />
+    <Content Include="bower_components\angular-sanitize\.bower.json" />
+    <Content Include="bower_components\angular-sanitize\angular-sanitize.min.js.map" />
+    <Content Include="bower_components\angular-sanitize\bower.json" />
+    <Content Include="bower_components\angular-sanitize\package.json" />
+    <Content Include="bower_components\angular-sanitize\README.md" />
+    <Content Include="bower_components\angular\.bower.json" />
+    <Content Include="bower_components\angular\angular.min.js.gzip" />
+    <Content Include="bower_components\angular\angular.min.js.map" />
+    <Content Include="bower_components\angular\bower.json" />
+    <Content Include="bower_components\angular\package.json" />
+    <Content Include="bower_components\angular\README.md" />
+    <Content Include="bower_components\hammerjs\.bower.json" />
+    <Content Include="bower_components\hammerjs\.bowerrc" />
+    <Content Include="bower_components\hammerjs\.gitignore" />
+    <Content Include="bower_components\hammerjs\.jscsrc" />
+    <Content Include="bower_components\hammerjs\.jshintrc" />
+    <Content Include="bower_components\hammerjs\.travis.yml" />
+    <Content Include="bower_components\hammerjs\bower.json" />
+    <Content Include="bower_components\hammerjs\CHANGELOG.md" />
+    <Content Include="bower_components\hammerjs\component.json" />
+    <Content Include="bower_components\hammerjs\CONTRIBUTING.md" />
+    <Content Include="bower_components\hammerjs\Gruntfile.coffee" />
+    <Content Include="bower_components\hammerjs\hammer.min.map" />
+    <Content Include="bower_components\hammerjs\LICENSE.md" />
+    <Content Include="bower_components\hammerjs\package.json" />
+    <Content Include="bower_components\hammerjs\README.md" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55779</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/Material.Design</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

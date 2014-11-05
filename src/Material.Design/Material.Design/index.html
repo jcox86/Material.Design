@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+
+    <title>Material Design</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.css">
+    <link rel="stylesheet" href="bower_components/angular-material/themes/default-theme.css">
+
+    <link href="NgApp/app.css" rel="stylesheet">
+
+</head>
+
+<body>
+    
+    <secured-content>
+        <div ng-show="loginRequired" ng-include src="'NgApp/Authentication/login.html'" ng-controller="LoginCtrl"></div>
+        <div ng-hide="loginRequired" ng-include src="'NgApp/app.html'"></div>
+    </secured-content>
+
+    <script src="bower_components/angular/angular.min.js"></script> 
+    <script src="bower_components/angular-route/angular-route.min.js"></script> 
+    <script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.min.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="bower_components/hammerjs/hammer.min.js"></script>
+    <script src="bower_components/angular-material/angular-material.min.css"></script>
+    <script src="bower_components/angular-local-storage/dist/angular-local-storage.min.js"></script> 
+    <script src="bower_components/angular-base64/angular-base64.min.js"></script> 
+
+    <script src="NgApp/globals.js"></script>
+    <script src="NgApp/Authentication/http-auth-interceptor.js"></script>
+    <script src="NgApp/Authentication/authentication.js"></script>
+    <script src="NgApp/Authentication/loginCtrl.js"></script>
+    <script src="NgApp/Authentication/fakeAuthenticationSvc.js"></script>
+    <script src="NgApp/Authentication/securedContent.js"></script>
+    <script src="NgApp/Navigation/navigation.js"></script>
+    <script src="NgApp/Navigation/routes.js"></script>
+    <script src="NgApp/Home/home.js"></script>
+    <script src="NgApp/About/about.js"></script>
+    <script src="NgApp/app.js"></script>
+
+</body>
+</html>

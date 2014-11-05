@@ -1,0 +1,29 @@
+{
+  "name": "Material.Design",
+  "version": "0.0.1",
+  "description": "Angular Material Design Framework",
+  "main": "index.html",
+  "keywords": [
+    "angular"
+  ],
+  "authors": [
+    "Jake Cox"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.1",
+    "angular-route": "~1.3.1",
+    "angular-sanitize": "~1.3.1",
+    "angular-base64": "~2.0.2",
+    "angular-local-storage": "~0.1.5",
+    "angular-material": "~0.5.1",
+    "angular-motion": "~0.3.4"
+  }
+}
